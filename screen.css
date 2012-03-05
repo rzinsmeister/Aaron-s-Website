@@ -28,7 +28,9 @@ rgb(36,3,35)
 orange
 rgb(232,95,8)
 */
-
+div#page {
+background-color:rgb(255,232,102);
+}
 
 div#title {
 
@@ -67,7 +69,7 @@ font-size:16px;
 div#mainbody p {
 padding-bottom:24px;
 color:rgb(13,12,12);
-background-color:rgb(255,232,102); 
+background-color:white; 
 }
 
 
