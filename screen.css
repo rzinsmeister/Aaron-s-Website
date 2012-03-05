@@ -1,0 +1,76 @@
+/*Yahoo! Reset Styles*/
+/*
+Copyright (c) 2011, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.9.0
+*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+
+/*My Site Styles*/
+
+/* Hide Stuff */
+ul.accessibility { display: none; }
+
+/* Links */
+div#page a:link, div#page a:visited div#page a:hover{
+  text-decoration:none;
+  color:rgb(232,95,8);
+}
+
+/*color options
+grey
+rgb(13,12,12)
+yellow
+rgb(255,232,102)
+purple
+rgb(36,3,35)
+orange
+rgb(232,95,8)
+*/
+
+
+div#title {
+
+/*font-family: 'Prosto One', cursive;*/
+/*font-family: 'Shadows Into Light Two', cursive;*/
+font-family: 'Condiment', cursive;
+
+
+/*font-family: 'Voces', cursive;*/
+/*font-family: 'Share', cursive;*/
+
+font-size: 40px;
+color:rgb(36,3,35);
+
+}
+
+div#header {
+padding-bottom:48px;
+}
+
+ul#navigation li {
+font-family: 'Prosto One', cursive;
+font-size:24px;
+float:left;
+position:relative;
+padding: 0px 0px 0px 24px;
+}
+
+
+div#mainbody {
+font-family: 'Voces', cursive;
+font-size:16px;
+
+}
+
+div#mainbody p {
+padding-bottom:24px;
+color:rgb(13,12,12);
+background-color:rgb(255,232,102); 
+}
+
+
+
+
+
