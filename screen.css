@@ -27,38 +27,52 @@ purple
 rgb(36,3,35)
 orange
 rgb(232,95,8)
+slate 1
+rgb(61,65,69)
+slate 2
+rgb(59,59,61)
 */
 
 html {
-background-color:rgb(255,232,102);
+background-color:white;
+}
+
+body {
+
 }
 
 div#title {
-
+background-color:rgb(59,59,61);
 /*font-family: 'Prosto One', cursive;*/
 /*font-family: 'Shadows Into Light Two', cursive;*/
 font-family: 'Condiment', cursive;
-
-
+padding-top:48px;
+padding-left:5%;
 /*font-family: 'Voces', cursive;*/
 /*font-family: 'Share', cursive;*/
 
-font-size: 40px;
-color:rgb(36,3,35);
-border-bottom:solid rgb(36,3,35) 3px;
+font-size: 48px;
+color:white;
+border-bottom:solid white 2px;
 
 }
 
 div#header {
+
 padding-bottom:48px;
+background-color:rgb(59,59,61);
+
 }
 
-
+div#header li + li {
+margin-left:2%;
+}
 
 
 div#mainbody {
 font-family: 'Voces', cursive;
 font-size:16px;
+margin:10%;
 
 }
 
@@ -72,7 +86,7 @@ background-color:white;
 
 /*Footer for all pages*/
 div#footer {
-  border-top: solid rgb(36,3,35) 3px;
+
   margin-top:auto;
   position:relative;
   font-size: 12px;
