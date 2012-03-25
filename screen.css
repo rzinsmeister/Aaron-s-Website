@@ -52,7 +52,7 @@ background-color:rgb(59,59,61);
 /*font-family: 'Shadows Into Light Two', cursive;*/
 font-family: 'Condiment', cursive;
 padding-top:48px;
-padding-left:6%;
+padding-left:9.5808383233533%/*96/1002*/;
 /*font-family: 'Voces', cursive;*/
 /*font-family: 'Share', cursive;*/
 padding-bottom:24px;
@@ -66,7 +66,7 @@ div#header {
 
 padding-bottom:38px;
 background-color:rgb(59,59,61);
-padding-left:6%;
+padding-left:9.5808383233533%;
 border-bottom:2px solid rgb(232,95,8);
 }
 
@@ -98,16 +98,36 @@ box-shadow:  0px 2px 1px white, inset 0 5px 10px white, inset 0 -5px 10px white;
 div#mainbody {
 font-family: 'Voces', cursive;
 font-size:16px;
-margin:10%;
-
+width:55.688622754491018%;
+margin-left:9.5808383233533%;
+float:left;
+position:relative;
+padding-top:48px;
 }
 
 div#mainbody p {
 padding-bottom:24px;
 color:rgb(13,12,12);
 background-color:white; 
+
 }
 
+div#sidebar {
+/*margin-left:58.682634730538922%;
+margin-right:9.5808383233533%;*/
+width:22.155688622754491%;
+float:right;
+position:relative;
+margin-right:9.5808383233533%;
+margin-top:24px;
+padding-top:24px;
+padding-left:2%;
+border-left:2px solid orange;
+/*float: right;
+margin:9.5808383233533%;
+position:relative;
+684/1002*/
+}
 
 
 /*Footer for all pages*/
