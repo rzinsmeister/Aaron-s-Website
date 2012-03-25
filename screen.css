@@ -13,7 +13,12 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 ul.accessibility { display: none; }
 
 /* Links */
-div#page a:link, div#page a:visited div#page a:hover{
+div#title a:link, div#title a:visited, div#title a:hover{
+  text-decoration:none;
+  color:white;
+text-shadow: 1px 1px 1px rgb(232,95,8);
+}
+div#header li a:link, div#header a:visited, div#header a:hover{
   text-decoration:none;
   color:rgb(232,95,8);
 }
@@ -53,7 +58,7 @@ padding-left:5%;
 
 font-size: 48px;
 color:white;
-border-bottom:solid white 2px;
+/*border-bottom:solid white 2px;*/
 
 }
 
@@ -61,11 +66,11 @@ div#header {
 
 padding-bottom:48px;
 background-color:rgb(59,59,61);
-
+padding-left:6%;
 }
 
 div#header li + li {
-margin-left:2%;
+
 }
 
 
