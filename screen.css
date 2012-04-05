@@ -39,7 +39,31 @@ rgb(59,59,61)
 */
 
 html {
-background-color:white;
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(59,59,61)), to(white));
+  /* fallback */
+  background-color: white;
+  background: url(images/linear_bg_2.png);
+  background-repeat: repeat-x;
+  
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(59,59,61)), to(white));
+  
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, rgb(59,59,61), white);
+  
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, rgb(59,59,61), white);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, rgb(59,59,61), white);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, rgb(59,59,61), white);
+ 
+
+/*
+background-color:rgb(59,59,61);*/
+font-family: Verdana, Helvetica, sans-serif;
 }
 
 body {
@@ -47,14 +71,9 @@ body {
 }
 
 div#title {
-background-color:rgb(59,59,61);
-/*font-family: 'Prosto One', cursive;*/
-/*font-family: 'Shadows Into Light Two', cursive;*/
-font-family: 'Condiment', cursive;
+
 padding-top:48px;
 padding-left:9.5808383233533%/*96/1002*/;
-/*font-family: 'Voces', cursive;*/
-/*font-family: 'Share', cursive;*/
 padding-bottom:24px;
 font-size: 48px;
 color:white;
@@ -64,29 +83,24 @@ color:white;
 
 div#header {
 
+
 padding-bottom:38px;
-background-color:rgb(59,59,61);
+
 padding-left:9.5808383233533%;
-border-bottom:2px solid rgb(232,95,8);
 }
 
-div#header li {
 
-
-background-color:rgb(61,65,69);
-
-
-}
 ul#navigation li {
 padding:6px 20px 6px 20px;
 margin-right: 3px;
-font-family: 'Prosto One', cursive;
-font-size:20px;
+font-size:24px;
 float:left;
+text-shadow: 1px 1px 1px black;
+/*
 border: 0.5px solid rgba(0,0,0,0.5);
 border-radius: 10px 10px 0px 0px;
 background: rgba(0,0,0,0.25);
-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 8px 1px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 8px 1px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3); */
 
 
 /*
@@ -96,21 +110,34 @@ box-shadow:  0px 2px 1px white, inset 0 5px 10px white, inset 0 -5px 10px white;
 }
 
 div#mainbody {
-font-family: 'Voces', cursive;
 font-size:16px;
-width:55.688622754491018%;
+width:51.688622754491018%;
+height:400px;
 margin-left:9.5808383233533%;
+margin-right: 3%;
 float:left;
 position:relative;
-padding-top:48px;
+margin-top:48px;
+
+background-color:white; 
+padding: 12px 2% 12px 2%;
+box-shadow: 6px 6px 6px rgba(0,0,0,0.5);
+border-radius: 3px 3px 3px 3px;
 }
 
 div#mainbody p {
 padding-bottom:24px;
 color:rgb(13,12,12);
-background-color:white; 
+
 
 }
+
+ul#homelist li{
+margin-left:6%;
+list-style:square;
+padding: 6px 0px 6px 3%;
+}
+
 
 div#sidebar {
 /*margin-left:58.682634730538922%;
@@ -118,15 +145,16 @@ margin-right:9.5808383233533%;*/
 width:22.155688622754491%;
 float:right;
 position:relative;
-margin-right:9.5808383233533%;
-margin-top:24px;
-padding-top:24px;
+margin-right:6.5808383233533%;
+margin-top:48px;
+
 padding-left:2%;
-border-left:2px solid orange;
+border-left:3px solid rgb(232,95,8);
 /*float: right;
 margin:9.5808383233533%;
 position:relative;
 684/1002*/
+
 }
 
 
@@ -145,7 +173,6 @@ div#footer {
 /*
 @media screen and (min-width: 300px) {
 ul#navigation li {
-font-family: 'Prosto One', cursive;
 font-size:24px;
 
 position:relative;
@@ -157,7 +184,6 @@ padding: 0px 0px 0px 24px;
 
 @media screen and (min-width: 642px) {
 ul#navigation li {
-font-family: 'Prosto One', cursive;
 font-size:24px;
 float:left;
 position:relative;
